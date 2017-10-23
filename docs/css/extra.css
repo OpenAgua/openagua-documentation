@@ -12,3 +12,7 @@ img {
 p {
     clear: left;
 }
+
+img.headshot {
+	max-width: 110px;
+}

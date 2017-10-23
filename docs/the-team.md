@@ -2,15 +2,18 @@ OpenAgua is developed and maintained by a core group of university researchers a
 
 # Institutional Partners
 
+**[UMass Hydrosystems Research Group](http://blogs.umass.edu/hydrosystems/about/), University of Massachusetts Amherst.**
+
 **[Center for Water for Latin America and the Caribbean](http://www.centrodelagua.org/), Tecnológico de Monterrey.**
 
 **[Center for Watershed Sciences](https://watershed.ucdavis.edu/), University of California, Davis.**
 
-**[UMass Hydrosystems Research Group](http://blogs.umass.edu/hydrosystems/about/), University of Massachusetts Amherst.**
-
 # Core Team
 
 In alphabetical order:
+
+<a alt="headshot" href="https://cee.umass.edu/faculty/casey-brown"><img class="headshot" src="../img/brown.jpg"/>
+**[Casey Brown, PhD, Hydrosystems Research Group, University of Massachusetts Amherst](https://cee.umass.edu/faculty/casey-brown)**. Professor Brown helps guide the vision of OpenAgua and helps ensure its continued short-term development in the context of multiple high profile water systems.
 
 ![headshot](img/elisa.jpg) **Laura Elisa-Garza, M.S., Center for Water for Latin America and the Caribbean, Tecnológico de Monterrey**. Laura is leading the study to demonstrate OpenAgua for the city of Monterrey, Mexico, develops content (e.g., documentation) and visual design, and continually tests OpenAgua.
 
@@ -18,9 +21,10 @@ In alphabetical order:
 
 [![headshot](img/ramirez.jpg)](http://www.centrodelagua.org/draldo.aspx) **[Aldo Ramírez-Orozco, Ph.D.](http://www.centrodelagua.org/draldo.aspx), Professor, Center for Water for Latin America and the Caribbean, and General Director, Núcleo Estrategico de Decisiones (NED), at Tecnológico de Monterrey**. Dr. Ramírez is the Mexico co-Principal Investigator for the CITRIS-funded seed project to develop OpenAgua, helping to guide project organization and liaising with funding partners in Mexico.
 
-![headshot](img/rheinheimer.jpg) **David Rheinheimer, Ph.D., Post-doctoral Researcher, Hydrosystems Group, University of Massachusetts Amherst**. Dr. Rheinheimer is involved in all aspects of OpenAgua, including strategic planning, project management and technical leadership; he is the primary developer of OpenAgua.
+![headshot](img/rheinheimer.jpg) **David Rheinheimer, Ph.D., Post-doctoral Researcher, Hydrosystems Group, University of Massachusetts Amherst**. Dr. Rheinheimer conceptualized OpenAgua and is involved in all aspects of its development, including vision, strategic planning, project management and technical leadership; to-date, he has been the primary developer of OpenAgua. His primary interests are in developing and leveraging decision support technologies to improve strategic management of water and energy resources.
 
-[![headshot](img/santos.jpg)](https://nicksantos.com/) **[Nick Santos](https://nicksantos.com/), GIS and database applications developer, Center for Watershed Sciences, University of California, Davis**. As a web developer, Nick focuses on OpenAgua's website architecture and security and helps develop geospatial tools.
+<a alt="headshot" href="https://www.cics.umass.edu/people/zarozinski-michael"><img class="headshot" src="../img/zarozinski.jpg"/>
+**[Michael Zarozinski](https://www.cics.umass.edu/people/zarozinski-michael), Senior Software Engineer, College of Information and Computer Sciences, University of Massachusetts Amherst**. He is a lead designer and implementer of the "heart and soul" of OpenAgua, the facility to run and monitor models. Michael is interested in all aspects of artificial intelligence and the art and science of software engineering.
 
 In addition, core development is in close collaboration with others. In particular:
 
@@ -40,9 +44,7 @@ The OpenAgua team appreciates working with our initial funding partners, for bot
 
 # Translation Team
 
-Translations are provided by a dedicated, enthusiastic, and uncompensated, team of already-overworked graduate students or recent graduates:
-
-[to be completed]
+Translations (forthcoming) are provided by a dedicated, enthusiastic, and uncompensated, team of already-overworked graduate students or recent graduates. They will be acknowledged once the multilingual capability is fully implemented.
 
 # The Open Source Community
 
