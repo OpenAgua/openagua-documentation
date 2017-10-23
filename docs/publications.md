@@ -1,5 +1,0 @@
-# Publications
----
-
-Under Construction.
-

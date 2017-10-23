@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Creating a network - OpenAgua docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href=""></a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">About</a>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../getting-started/">Getting Started</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../allocation-logic/">Water allocation logic</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../setting-up-model/">Setting up a model</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Creating a network</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../creating-scenarios/">Creating scenarios</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../entering-data/">Entering data</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../running-models/">Running models</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../viewing-results/">Viewing results</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../exporting-data/">Exporting data</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../collaboration/">Sharing & collaboration</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../advanced-tools/">Advanced data tools</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../glossary/">Glossary</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../tutorials/tutorial1/">Tutorial 1</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../tutorials/tutorial2/">Tutorial 2</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../faqs/">FAQs</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../the-team/">The Team</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../publications/">Publications</a>
+                </li>
+            
+            
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p>The spatial representation of a water system developed in the <strong>Network Editor</strong>. The Network Editor section is destined to construct your model in a schematic view. In here, the graphical interface will help the user to visualize and comprenhend its project in form of the physical relationship between demand and supply nodes as well as their connection among them.</p>
+<p>To begin, start by selecting the geographic area of your project. There are a set of different map types (light, terrain, satellite, etc.) located on the right side of your map, pick the one that best suit your project.  On top of the list, there is a "go to my location" button, by clicking it, the map will display the current location of the user. Zoom in and out are features identified by the plus (+) and minus (-) icons, these may help you to select a very specific location of the network. However if the user prefers a simplistic schematic model there is a -No based Map- element on the list of maps.</p>
+<p>Basemaps of OpenAgua are high-resolution imagery maps which can be added to the network. A list of useful maps is located at the right side of the Network Editor; topographic, satellite, street maps, terrain etc. are some of the most useful maps.</p>
+<p>Once you set the area, start adding nodes and links. To set a point or a node: Click on the marker and place it on the map, a feature window will appear and here you have to select the type of feature, name and description. To set a link/river/conveyance: Click on the line icon located at the top left of your map, then click anywhere in the map to start building your polyline, do a double-click on the last point to finish your polyline or simply press finish on the right side of the line icon.</p>
+<p>You are also able to edit the schematic location of points and polylines just click the edit icon at the top left of the map and move your nodes and links freely then save any changes.  On the other side if you want to edit the nature of any node or link, do a right click on it and you will be able to: see the coordinates of the feature and center the data there. Moreover you will be able to delete, edit the name/description and data of the feature.</p>
+<p>The Network Editor section is destined to construct your model in a schematic view. First zoom in to select the geographic area of your project. There are a set of different map types (light, terrain, satellite, etc.) on the right side of your map, pick the one that best suit your project. </p>
+<p>Once you set the area, start adding nodes and links. To set a point or a node: Click on the marker and place it on the map, a feature window will appear and here you have to select the type of feature, name and description. To set a link/river/conveyance: Click on the line icon located at the top left of your map, then click anywhere in the map to start building your polyline, do a double-click on the last point to finish your polyline or simply press finish on the right side of the line icon.</p>
+<p>You are also able to edit the schematic location of points and polylines just click the edit icon at the top left of the map and move your nodes and links freely then save any changes. It is important to know that every polyline is managed as an independent link (we have to discuss this part). On the other side if you want to edit the nature of any node or link, do a right click on it and you will be able to: see the coordinates of the feature and center the data there. Moreover you will be able to delete, edit the name/description and data of the feature.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/require.js"></script>
+        <script src="../../search/search.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

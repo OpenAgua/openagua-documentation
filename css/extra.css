@@ -1,0 +1,14 @@
+body {
+	background: none;
+}
+
+img {
+	float: left;
+	margin-right: 10px !important;
+	margin-bottom: 10px !important;
+	margin-top: 0px !important;
+}
+
+p {
+    clear: left;
+}
