@@ -1,7 +1,4 @@
-# openagua-documentation
-This houses the OpenAgua documentation files, keeping them separate from the main repository. The docs are to describe the project and how to use OpenAgua (pending a better system), not how to install it. Installation instructions will stay in the main repository.
-
-This documentation is hosted on GitHub Pages (the gh-pages branch of this repository) and can be found at [docs.openagua.org](docs.openagua.org).
+These are the source files for the OpenAgua documentation, which are hosted on GitHub Pages (the gh-pages branch of this repository) and can be found at [docs.openagua.org](docs.openagua.org).
 
 **Instructions for deploying**
 
