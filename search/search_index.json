@@ -32,18 +32,8 @@
         },
         {
             "location": "/user-guide/about-this-guide/",
-            "text": "About this guide\n\u00b6\n\n\nPurpose\n\u00b6\n\n\nThe purpose of this user guide is to help get started modeling right away; describe key concepts that underpin the data organization and modeling principles used by OpenAgua, and describe how to use specific application features.\n\n\nThis guide is primarily targeted toward the application user who does not want to customize the underlying code. However, the \nUnder-the-hood\n section provides some tips for advanced tinkerers.\n\n\nTable of contents\n\u00b6\n\n\n\n\nQuick start\n\n\nKey concepts\n\n\nModeling logic\n\n\nSetting up a model\n\n\nCreating a network\n\n\nCreating scenarios\n\n\nEntering data\n\n\nRunning models\n\n\nViewing results\n\n\nExporting data\n\n\nSharing & collaboration\n\n\nAdvanced data tools\n\n\nUnder-the-hood\n\n\nGlossary",
+            "text": "The purpose of this user guide is to help get started modeling right away; describe key concepts that underpin the data organization and modeling principles used by OpenAgua, and describe how to use specific application features.\n\n\nThis guide is primarily targeted toward the application user who does not want to customize the underlying code. However, the \nUnder-the-hood\n section provides some tips for advanced tinkerers.\n\n\nTable of contents\n\u00b6\n\n\n\n\nQuick start\n\n\nKey concepts\n\n\nModeling logic\n\n\nSetting up a model\n\n\nCreating a network\n\n\nCreating scenarios\n\n\nEntering data\n\n\nRunning models\n\n\nViewing results\n\n\nExporting data\n\n\nSharing & collaboration\n\n\nAdvanced data tools\n\n\nUnder-the-hood\n\n\nGlossary",
             "title": "About this guide"
-        },
-        {
-            "location": "/user-guide/about-this-guide/#about-this-guide",
-            "text": "",
-            "title": "About this guide"
-        },
-        {
-            "location": "/user-guide/about-this-guide/#purpose",
-            "text": "The purpose of this user guide is to help get started modeling right away; describe key concepts that underpin the data organization and modeling principles used by OpenAgua, and describe how to use specific application features.  This guide is primarily targeted toward the application user who does not want to customize the underlying code. However, the  Under-the-hood  section provides some tips for advanced tinkerers.",
-            "title": "Purpose"
         },
         {
             "location": "/user-guide/about-this-guide/#table-of-contents",
