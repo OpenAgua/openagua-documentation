@@ -160,6 +160,7 @@
         <li class="main "><a href="#key-concepts">Key Concepts</a></li>
             <li><a href="#data-organization">Data organization</a></li>
             <li><a href="#project-networks">Project &amp; networks</a></li>
+            <li><a href="#network-templates">Network templates</a></li>
             <li><a href="#scenarios">Scenarios</a></li>
     </ul>
 </div></div>
@@ -167,7 +168,7 @@
 
 <h1 id="about-this-guide">About this guide<a class="headerlink" href="#about-this-guide" title="Permanent link">&para;</a></h1>
 <p>This user guide includes four parts, yet includes many more sections.</p>
-<p>First, it describes key concepts that underpin the data organization and modeling principles used by OpenAgua. </p>
+<p>First, it describes key concepts that underpin the data organization and modeling principles used by OpenAgua.</p>
 <p>Second, it describes how to use interface features unique to OpenAgua, such as creating new projects, networks, and studies.</p>
 <p>Third, it includes documentation for specific functional areas within OpenAgua (e.g., Network Editor, Basic Data Editor, etc.), which are developed--and documented--in a modular fashion.</p>
 <p>Finally, it includes a <a href="../docs.openagua.org/user-guide/glossary">glossary</a> of specific terms.</p>
@@ -180,6 +181,16 @@ OpenAgua extends this functionality by adding <em>studies</em>, which consist of
 <h2 id="project-networks">Project &amp; networks<a class="headerlink" href="#project-networks" title="Permanent link">&para;</a></h2>
 <p>In Hydra Platform, a <em>network</em> is a user-created collection of nodes (e.g., reservoirs and demand sites) connected to each other by links (e.g., rivers and conveyances). A <em>project</em> is a collection of one or more networks; a network may belong to only one project.</p>
 <p>All the projects and networks are stored in the library called <strong>Home</strong>. In here, the user will be yable to create new networks and arrange them by the user's preferences. Networks can be shared, edited, exported, deleted and cleaned.</p>
+<h2 id="network-templates">Network templates<a class="headerlink" href="#network-templates" title="Permanent link">&para;</a></h2>
+<p>In OpenAgua, a "template" is a definition of the overall structure of a network. Specifically, a template defines the <em>kinds</em> of resources (nodes, links, and global resources) and attributes (i.e., constants and variables) that a network may have. For example, a template would indicate that there is a node type called "reservoir" and link type called "river". The template would then further indicate that, for example, a reservoir has a "capacity" and an "inactive zone".</p>
+<p>The user does not need to deal with templates to get started with OpenAgua. However, as a model becomes more sophisticated, or if the core modeling logic is changed, OpenAgua comes with a <a href="../../user-guide/setting-up-model/#define-the-model-template">template editor</a>, which may then be applied to a new or existing network as <a href="../../user-guide/setting-up-model/#createedit-networks">described here</a>.</p>
+<p>Templates are matched with models: a template should describe (at least) the input and output expected by a core model. A network defined by a particular template may be used by one ore more models. A model might also use more than one template, but this might be more restrictive, as a model's input requirements are typically fixed; any variation on a template would need to consider this.</p>
+<p>For each resource type (node, link, network), a template defines the name, icon to be used (nodes) or line style (links), as well as attributes. In the case of the "network" (i.e., the network as a whole, not specific nodes and links), "resources" may be added to represent arbitrary groupings of global attributes for the network.</p>
+<p>For each attribute (variable), a template further defines:
+<em> Data type (<em>scalar</em>, <em>timeseries</em>, etc.),
+</em> Dimension (<em>volume</em>, <em>flow rate</em>, etc.),
+<em> Units (<em>cubic meters</em>, <em>cubic meters per second</em>, etc.), and
+</em> Scope (whether or not the attribute is an input or output).</p>
 <h2 id="scenarios">Scenarios<a class="headerlink" href="#scenarios" title="Permanent link">&para;</a></h2></div>
         </div>
 
