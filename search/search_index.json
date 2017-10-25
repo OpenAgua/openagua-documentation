@@ -82,7 +82,7 @@
         },
         {
             "location": "/user-guide/setting-up-model/",
-            "text": "Setting up a new model\n\u00b6\n\n\nThis describes how to create and set up up a model.\nThis assumes you have read \nKey Concepts\n and that you have successfully created an account and logged on.\n\n\nCreate/edit projects\n\u00b6\n\n\nCreate a project\n\u00b6\n\n\nTo create a project, which will contain one or more network, click \u2018Add Project\u2019 from the HOME area.\n\n\nEdit a project\n\u00b6\n\n\nDelete a project\n\u00b6\n\n\nDefine the model template\n\u00b6\n\n\nFor an overview of templates, please see \nGetting Started\n.\n\n\nThe template facility enables you to view \"official\" (built-in) templates and create/modify additional templates. Official templates may be \"forked\" to create a copy which may then be edited.\n\n\nTo get to the template viewer/editor, go to \nWrench\n -> \nTemplates\n.\n\n\nTo fork an official template:\n1. Right click the template and click \"fork\". The template will be copied to \"My templates\", where you may edit the forked template.\n\n\nTo edit in \"My templates\":\n[documentation forthcoming]\n\n\nSome caveats:\n1. The template editor is not totally smooth. For example, sometimes tabs don't render right away, such that you have to click on another then come back to the desired tab; this is a problem with the underlying framework, which will be fixed some day.\n2. The editor is not totally functional. For example, you cannot currently change the icons, or apply units universally (e.g., specify that all flow rates are in m3/s). These core and other features will be added.\n3. Changing units does not yet change units in the core model. So changing units has no effect on the units that you should provide to the model.\n\n\nCreate/edit networks\n\u00b6\n\n\nCreate network\n\u00b6\n\n\nOnce logged-in, click \"add network\" in order to start building your project. A window will pop up so you can name and describe your project. Each network can have different versions where you will be able to switch within without loosing any data, we recommend selecting the latest version and looking at the \"version history\" link before modifying the template. This feature will function in later versions of OpenAgua.\n\n\nEdit network properties\n\u00b6\n\n\nEdit network contents\n\u00b6\n\n\nOnce your network is created, you can start creating and editing specific features (rivers, dams, etc.) by clicking 'OPEN', which appears over the network's thumbnail.",
+            "text": "Setting up a new model\n\u00b6\n\n\nThis describes how to create and set up up a model.\nThis assumes you have read \nKey Concepts\n and that you have successfully created an account and logged on.\n\n\nCreate/edit projects\n\u00b6\n\n\nCreate a project\n\u00b6\n\n\nTo create a project, which will contain one or more network, click \u2018Add Project\u2019 from the HOME area.\n\n\nEdit a project\n\u00b6\n\n\nDelete a project\n\u00b6\n\n\nDefine the model template\n\u00b6\n\n\nOverview\n\u00b6\n\n\nFor an overview of templates, please see \nGetting Started\n.\n\n\nThe template facility enables you to view \"official\" (built-in) templates and create/modify additional templates. Official templates may be \"forked\" to create a copy which may then be edited.\n\n\nGetting there\n\u00b6\n\n\nTo get to the template viewer/editor, go to \nWrench\n -> \nTemplates\n.\n\n\nUsage\n\u00b6\n\n\nFork an official template\n\u00b6\n\n\nTo fork an official template:\n\n\n\n\nRight click the template and click \"fork\". The template will be copied to \"My templates\", where you may edit the forked template.\n\n\n\n\nEdit a template\n\u00b6\n\n\nTo edit in \"My templates\":\n[documentation forthcoming]\n\n\nCaveats\n\u00b6\n\n\n\n\nThe template editor is not totally smooth. For example, sometimes tabs don't render right away, such that you have to click on another then come back to the desired tab; this is a problem with the underlying framework, which will be fixed some day.\n\n\nThe editor is not totally functional. For example, you cannot currently change the icons, or apply units universally (e.g., specify that all flow rates are in m3/s). These core and other features will be added.\n\n\nChanging units does not yet change units in the core model. So changing units has no effect on the units that you should provide to the model.\n\n\n\n\nCreate/edit networks\n\u00b6\n\n\nCreate network\n\u00b6\n\n\nOnce logged-in, click \"add network\" in order to start building your project. A window will pop up so you can name and describe your project. Each network can have different versions where you will be able to switch within without loosing any data, we recommend selecting the latest version and looking at the \"version history\" link before modifying the template. This feature will function in later versions of OpenAgua.\n\n\nEdit network properties\n\u00b6\n\n\nEdit network contents\n\u00b6\n\n\nOnce your network is created, you can start creating and editing specific features (rivers, dams, etc.) by clicking 'OPEN', which appears over the network's thumbnail.",
             "title": "Setting up a model"
         },
         {
@@ -112,8 +112,38 @@
         },
         {
             "location": "/user-guide/setting-up-model/#define-the-model-template",
-            "text": "For an overview of templates, please see  Getting Started .  The template facility enables you to view \"official\" (built-in) templates and create/modify additional templates. Official templates may be \"forked\" to create a copy which may then be edited.  To get to the template viewer/editor, go to  Wrench  ->  Templates .  To fork an official template:\n1. Right click the template and click \"fork\". The template will be copied to \"My templates\", where you may edit the forked template.  To edit in \"My templates\":\n[documentation forthcoming]  Some caveats:\n1. The template editor is not totally smooth. For example, sometimes tabs don't render right away, such that you have to click on another then come back to the desired tab; this is a problem with the underlying framework, which will be fixed some day.\n2. The editor is not totally functional. For example, you cannot currently change the icons, or apply units universally (e.g., specify that all flow rates are in m3/s). These core and other features will be added.\n3. Changing units does not yet change units in the core model. So changing units has no effect on the units that you should provide to the model.",
+            "text": "",
             "title": "Define the model template"
+        },
+        {
+            "location": "/user-guide/setting-up-model/#overview",
+            "text": "For an overview of templates, please see  Getting Started .  The template facility enables you to view \"official\" (built-in) templates and create/modify additional templates. Official templates may be \"forked\" to create a copy which may then be edited.",
+            "title": "Overview"
+        },
+        {
+            "location": "/user-guide/setting-up-model/#getting-there",
+            "text": "To get to the template viewer/editor, go to  Wrench  ->  Templates .",
+            "title": "Getting there"
+        },
+        {
+            "location": "/user-guide/setting-up-model/#usage",
+            "text": "",
+            "title": "Usage"
+        },
+        {
+            "location": "/user-guide/setting-up-model/#fork-an-official-template",
+            "text": "To fork an official template:   Right click the template and click \"fork\". The template will be copied to \"My templates\", where you may edit the forked template.",
+            "title": "Fork an official template"
+        },
+        {
+            "location": "/user-guide/setting-up-model/#edit-a-template",
+            "text": "To edit in \"My templates\":\n[documentation forthcoming]",
+            "title": "Edit a template"
+        },
+        {
+            "location": "/user-guide/setting-up-model/#caveats",
+            "text": "The template editor is not totally smooth. For example, sometimes tabs don't render right away, such that you have to click on another then come back to the desired tab; this is a problem with the underlying framework, which will be fixed some day.  The editor is not totally functional. For example, you cannot currently change the icons, or apply units universally (e.g., specify that all flow rates are in m3/s). These core and other features will be added.  Changing units does not yet change units in the core model. So changing units has no effect on the units that you should provide to the model.",
+            "title": "Caveats"
         },
         {
             "location": "/user-guide/setting-up-model/#createedit-networks",
