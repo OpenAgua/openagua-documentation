@@ -1,4 +1,5 @@
-#Results
+# Results
+
 ## Results Explorer / Chart maker
 The results explorer consists of:
 
@@ -6,7 +7,7 @@ The results explorer consists of:
 
 * Options to change the plot renderer (Plotly and Google Charts)
 
-* Options to filter the data from the server. 
+* Options to filter the data from the server.
 
 * The ability to save charts for later viewing and editing.
 
@@ -15,9 +16,6 @@ First, select in the filters bar the feature or variables and click load. Then s
 To add dynamism, there are two render options in which the user is able to see and edit their results: Plotly and Google charts. Both are online analytics and data visualization tools, find this option on the drop down menu located at the top left corner then select the most adequate for your project. If you want to change from one render to another remember to click Load after switching this option.
 
 **Plotly:** By hovering the pointer on the chart, an edit menu will appear at the right corner of your plot. Here you will be able download your result, zoom in and out, edit etc. If you choose to edit your plot, it will automatically take you to the plotly site where you will be able to style and analyze it with several statistical tests.
-
-**Google Charts:** To activate the editing options double click in any place of the chart. A pop-up window will appear so that you can change the type of chart, font style and size etc.
-
 
 Note: To create a scatter chart the filter should be used to select more specific data.
 

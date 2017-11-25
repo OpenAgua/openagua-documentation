@@ -1,12 +1,15 @@
-site_name: OpenAgua docs
+site_name: OpenAgua
 docs_dir: 'docs'
-theme: 'mkdocs'
-theme_dir: 'theme_extra'
+theme:
+  name: mkdocs
+  include_sidebar: true
 pages:
     - About: index.md
     - User Guide:
-        - 'Getting Started': 'user-guide/getting-started.md'
-        - 'Water allocation logic': 'user-guide/allocation-logic.md'
+        - 'About this guide': user-guide/about-this-guide.md
+        - 'Quick start': 'user-guide/getting-started.md'
+        - 'Key concepts': 'user-guide/key-concepts.md'
+        - 'Modeling logic': 'user-guide/modeling-logic.md'
         - 'Setting up a model': 'user-guide/setting-up-model.md'
         - 'Creating a network': 'user-guide/creating-network.md'
         - 'Creating scenarios': 'user-guide/creating-scenarios.md'
@@ -16,6 +19,7 @@ pages:
         - 'Exporting data': 'user-guide/exporting-data.md'
         - 'Sharing & collaboration': 'user-guide/collaboration.md'
         - 'Advanced data tools': 'user-guide/advanced-tools.md'
+        - 'Under-the-hood': 'user-guide/under-the-hood.md'
         - 'Glossary': 'user-guide/glossary.md'
     - Tutorials:
         - 'Tutorial 1': 'tutorials/tutorial1.md'

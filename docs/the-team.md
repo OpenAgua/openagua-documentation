@@ -13,7 +13,7 @@ OpenAgua is developed and maintained by a core group of university researchers a
 In alphabetical order:
 
 <a alt="headshot" href="https://cee.umass.edu/faculty/casey-brown"><img class="headshot" src="../img/brown.jpg"/>
-**[Casey Brown, PhD, Hydrosystems Research Group, University of Massachusetts Amherst](https://cee.umass.edu/faculty/casey-brown)**. Professor Brown helps guide the vision of OpenAgua and helps ensure its continued short-term development in the context of multiple high profile water systems.
+**[Casey Brown, PhD, Hydrosystems Research Group, University of Massachusetts Amherst](https://cee.umass.edu/faculty/casey-brown)**. Dr. Brown helps guide the vision of OpenAgua and helps ensure its continued short-term development in the context of multiple high profile water systems.
 
 ![headshot](img/elisa.jpg) **Laura Elisa-Garza, M.S., Center for Water for Latin America and the Caribbean, Tecnológico de Monterrey**. Laura is leading the study to demonstrate OpenAgua for the city of Monterrey, Mexico, develops content (e.g., documentation) and visual design, and continually tests OpenAgua.
 

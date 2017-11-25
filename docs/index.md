@@ -15,9 +15,7 @@ Additionally, OpenAgua explicitly uses economic optimization by default, while a
 
 # Availability
 
-OpenAgua may be either used online at [OpenAgua.org](http://test.openagua.org), with different pricing options, or downloaded (for free) [from GitHub](https://github.com/CentroDelAgua/OpenAgua) for use on a desktop or local server. OpenAgua.org enables ready-to-go modeling, with no setup required, whereas the downloadable version is mostly free and customizable (some advanced features require a license; these are disabled by default). In all cases, we offer paid support for both modeling and custom installation.
-
-See a [full comparison](http://test.openagua.org/versions) of available versions and optional addons and services.
+OpenAgua may be either used online at [www.openagua.org](https://www.openagua.org), or downloaded (for free) [from GitHub](https://github.com/OpenAgua/OpenAgua) for use on a desktop or local server. OpenAgua.org enables ready-to-go modeling, with no setup required, whereas the downloadable version is mostly free and customizable (some advanced features require a license; these are disabled by default). In all cases, we offer paid support for both modeling and custom installation.
 
 # Main Features
 
