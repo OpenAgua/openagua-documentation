@@ -1,5 +1,5 @@
 # openagua-documentation
-This houses the OpenAgua documentation files, keeping them separate from the main repository. The docs are to describe the project and how to use OpenAgua (pending a better system), not how to install it. Installation instructions will stay in the main repository.
+This houses the OpenAgua documentation files. The docs aim to describe the project and how to use OpenAgua (pending a better system), not how to install it. Installation instructions will stay in the main repository.
 
 This documentation is hosted on GitHub Pages (the gh-pages branch of this repository) and can be found at [docs.openagua.org](docs.openagua.org).
 
@@ -11,7 +11,7 @@ The docs are built with [MkDocs](www.mkdocs.org), a documentation-centric static
 
 2. Create (or don't delete) the CNAME file found in ./docs. This file tells GitHub that the documentation URL will point to the files in the gh-pages branch.
 
-3. From the same directory as this readme file (`OpenAgua/docs`), run 'mkdocs gh-deploy'. **For Windows users:** This step should be from Git Shell, which is installed when you install GitHub desktop. This ensures that the appropriate git-related commands are available. After opening Git Shell, you will need to navigate to the root docs directory (again, `OpenAgua/docs`).
+3. From the same directory as this readme file, run 'mkdocs gh-deploy'. **For Windows users:** This step should be from Git Shell, which is installed when you install GitHub desktop. This ensures that the appropriate git-related commands are available. After opening Git Shell, you will need to navigate to the root docs directory.
 
 That's it! In practice, step 3 is the only command needed on a routine basis to update the documentation site.
 
