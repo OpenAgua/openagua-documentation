@@ -1,11 +1,25 @@
 # openagua-documentation
 This houses the OpenAgua documentation files. The docs aim to describe the project and how to use OpenAgua (pending a better system), not how to install it. Installation instructions will stay in the main repository.
 
-This documentation is hosted on GitHub Pages (the gh-pages branch of this repository) and can be found at [docs.openagua.org](docs.openagua.org).
+This documentation is built with [MkDocs](www.mkdocs.org), a documentation-centric static site generator written in Python, using the [Material](https://squidfunk.github.io/mkdocs-material/) theme and hosted on GitHub Pages (the gh-pages branch of this repository) and can be found at [docs.openagua.org](docs.openagua.org).
 
-**Instructions for deploying**
+## Set up & edit
 
-The docs are built with [MkDocs](www.mkdocs.org), a documentation-centric static site generator written in Python. While the MkDocs website has clear instructions for creating and customizing the docs, instructions for deployment to GitHub Pages (gh-pages branch) are less clear. The following steps are critical:
+### Structure
+
+See the [documentation for MkDocs](https://www.mkdocs.org/).
+
+### Theme
+
+See the [documentation for Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). 
+
+### Content
+
+The documentation is written using [Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
+
+## Deploy to GitHub pages
+
+The following instructions update the gh-pages branch of this repository, which is necessary to host on GitHub pages.
 
 1. Install MkDocs. E.g., `pip install mkdocs`.
 
