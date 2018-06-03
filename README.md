@@ -1,5 +1,5 @@
-# openagua-documentation
-This houses the OpenAgua documentation files. The docs aim to describe the project and how to use OpenAgua (pending a better system), not how to install it. Installation instructions will stay in the main repository.
+# OpenAgua documentation
+This houses the OpenAgua documentation files. The docs aim to describe the project and how to use OpenAgua from a user perspective, not how to install it. Installation instructions will stay in the main repository, wherever that may be.
 
 This documentation is built with [MkDocs](www.mkdocs.org), a documentation-centric static site generator written in Python, using the [Material](https://squidfunk.github.io/mkdocs-material/) theme and hosted on GitHub Pages (the gh-pages branch of this repository) and can be found at [docs.openagua.org](docs.openagua.org).
 
