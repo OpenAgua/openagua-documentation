@@ -2,7 +2,7 @@
 
 ## Water allocation logic
 
-[Documentation forthcoming]
+\[Documentation forthcoming\]
 
 ## Elements of the schematic model
 
@@ -15,3 +15,4 @@
 **Rivers, Diversions and Conveyance**
 
 **Delivery Link and Return Flow**
+

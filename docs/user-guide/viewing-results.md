@@ -1,14 +1,12 @@
 # Results
 
 ## Results Explorer / Chart maker
+
 The results explorer consists of:
 
 * A suite of pivot tables and charts
-
-* Options to change the plot renderer (Plotly and Google Charts)
-
+* Options to change the plot renderer \(Plotly and Google Charts\)
 * Options to filter the data from the server.
-
 * The ability to save charts for later viewing and editing.
 
 First, select in the filters bar the feature or variables and click load. Then select which kind of plot you prefer from the suit of charts and tables at the drop down menu. Select the type of aggregator and then start building your results pivot table.
@@ -19,7 +17,7 @@ To add dynamism, there are two render options in which the user is able to see a
 
 Note: To create a scatter chart the filter should be used to select more specific data.
 
-
 ## My Charts or Chart Collection
 
 The chart collection contains all the saved graphs and plots from the results explorer window. By clicking View on the image, a slide show will display the selected image. If there are some changes to be performed, simply click edit and this command will take the saved result into the Results Explorer window in order to perform any modification.
+

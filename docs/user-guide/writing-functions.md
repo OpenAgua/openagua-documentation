@@ -1,3 +1,5 @@
+# writing-functions
+
 The last line of the user-entered code is automatically prepended with "return ", such that the user doesn't need to. This is most useful for simple cases, such as a constant value:
 
 ```python
@@ -13,6 +15,7 @@ else:
     x = 1
 x
 ```
+
 ```python
 if date.month in [6,7,8]:
     x = 0.5
@@ -32,5 +35,7 @@ This scheme enables the user to import, enter custom functions directly into the
 
 The last three examples above should raise a question: where does "date" come from? OpenAgua will include several built-in variables available for use. For now, this only includes the date of the function call. In the future, however, this will expand to include others as needed.
 
-# Behind-the-scenes
+## Behind-the-scenes
+
 This code is evaluated using the evaluate function found in evaluator.py. Essentially, a string representation of a function is created, with the entered code as the body of the function. All lines are indented appropriately as needed for Python. The function is then called by the evaluator and assigned to a variable. The function is run once per time step.
+
