@@ -1,4 +1,4 @@
-# creating-network
+# Creating/editing a network
 
 ## Create a network
 

@@ -1,4 +1,4 @@
-# Entering Data
+# Entering data
 
 Two tools are provided for entering data. First, the [**Single Data Editor**](https://github.com/openagua/openagua-documentation/tree/f19ba5dcd6e831142525f48888c806f2925f6afe/user-guide/entering-data/README.md#single-data-editor) allows input of data on a per-scenario, per-resource, per-variable basis. In contrast, the [**Multi Data Editor**](https://github.com/openagua/openagua-documentation/tree/f19ba5dcd6e831142525f48888c806f2925f6afe/user-guide/entering-data/README.md#multi-data-editor) allows input for multiple scenarios/resources/variables at once, using a pivot table-style input mechanism. The Single Data Editor allows for advanced custom input. The main utility of the Multi Data Editor is to copy-paste multiple time series data at once.
 

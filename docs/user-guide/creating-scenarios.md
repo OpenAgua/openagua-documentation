@@ -1,4 +1,4 @@
-# creating-scenarios
+# Management options and scenarios
 
 \[Under construction\]
 

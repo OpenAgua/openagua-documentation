@@ -1,30 +1,40 @@
-# the-team
+---
+description: >-
+  OpenAgua is developed and maintained by a core group of university researchers
+  and funding partners, with development and technical support from many others.
+---
 
-OpenAgua is developed and maintained by a core group of university researchers and funding partners, with development and technical support from many others.
+# The Team
 
 ## Institutional Partners
+
+Current:
 
 [**UMass Hydrosystems Research Group**](http://blogs.umass.edu/hydrosystems/about/)**, University of Massachusetts Amherst.**
 
 [**Center for Water for Latin America and the Caribbean**](http://www.centrodelagua.org/)**, Tecnológico de Monterrey.**
 
+Previous:
+
 [**Center for Watershed Sciences**](https://watershed.ucdavis.edu/)**, University of California, Davis.**
 
 ## Core Team
 
-In alphabetical order:
+Current team:
 
-![](https://github.com/openagua/openagua-documentation/tree/f19ba5dcd6e831142525f48888c806f2925f6afe/img/brown.jpg) [**Casey Brown, PhD, Hydrosystems Research Group, University of Massachusetts Amherst**](https://cee.umass.edu/faculty/casey-brown). Dr. Brown helps guide the vision of OpenAgua and helps ensure its continued short-term development in the context of multiple high profile water systems.
+**David Rheinheimer, Ph.D., Post-doctoral Researcher, Hydrosystems Group, University of Massachusetts Amherst**. Dr. Rheinheimer conceptualized OpenAgua and is involved in all aspects of its development, including vision, strategic planning, project management and technical leadership; to-date, he has been the primary developer of OpenAgua. His primary interests are in developing and leveraging decision support technologies to improve strategic management of water and energy resources.
 
-![headshot](.gitbook/assets/elisa.jpg) **Laura Elisa-Garza, M.S., Center for Water for Latin America and the Caribbean, Tecnológico de Monterrey**. Laura is leading the study to demonstrate OpenAgua for the city of Monterrey, Mexico, develops content \(e.g., documentation\) and visual design, and continually tests OpenAgua.
+[**Casey Brown, PhD, Hydrosystems Research Group, University of Massachusetts Amherst**](https://cee.umass.edu/faculty/casey-brown). Dr. Brown helps guide the vision of OpenAgua and helps ensure its continued short-term development in the context of multiple high profile water systems.
 
-[![headshot](.gitbook/assets/medellin.jpg)](https://watershed.ucdavis.edu/people/joshmd) [**Josué Medellín-Azuara, Ph.D.**](https://watershed.ucdavis.edu/people/joshmd)**, Senior Researcher, Center for Watershed Sciences, University of California, Davis**. Dr. Medellín-Azuara is the U.S. co-Principal Investigator for the CITRIS-funded seed project to develop OpenAgua, helping to oversee project organization and coordinate with other related projects.
+Past contributors:
 
-[![headshot](.gitbook/assets/ramirez.jpg)](http://www.centrodelagua.org/draldo.aspx) [**Aldo Ramírez-Orozco, Ph.D.**](http://www.centrodelagua.org/draldo.aspx)**, Professor, Center for Water for Latin America and the Caribbean, and General Director, Núcleo Estrategico de Decisiones \(NED\), at Tecnológico de Monterrey**. Dr. Ramírez is the Mexico co-Principal Investigator for the CITRIS-funded seed project to develop OpenAgua, helping to guide project organization and liaising with funding partners in Mexico.
+**Laura Elisa-Garza, M.S., Center for Water for Latin America and the Caribbean, Tecnológico de Monterrey**. Laura is leading the study to demonstrate OpenAgua for the city of Monterrey, Mexico, develops content \(e.g., documentation\) and visual design, and continually tests OpenAgua
 
-![headshot](.gitbook/assets/rheinheimer.jpg) **David Rheinheimer, Ph.D., Post-doctoral Researcher, Hydrosystems Group, University of Massachusetts Amherst**. Dr. Rheinheimer conceptualized OpenAgua and is involved in all aspects of its development, including vision, strategic planning, project management and technical leadership; to-date, he has been the primary developer of OpenAgua. His primary interests are in developing and leveraging decision support technologies to improve strategic management of water and energy resources.
+[**Josué Medellín-Azuara, Ph.D.**](https://watershed.ucdavis.edu/people/joshmd)**, Senior Researcher, Center for Watershed Sciences, University of California, Davis**. Dr. Medellín-Azuara is the U.S. co-Principal Investigator for the CITRIS-funded seed project to develop OpenAgua, helping to oversee project organization and coordinate with other related projects.
 
-![](https://github.com/openagua/openagua-documentation/tree/f19ba5dcd6e831142525f48888c806f2925f6afe/img/zarozinski.jpg) [**Michael Zarozinski**](https://www.cics.umass.edu/people/zarozinski-michael)**, Senior Software Engineer, College of Information and Computer Sciences, University of Massachusetts Amherst**. He is a lead designer and implementer of the "heart and soul" of OpenAgua, the facility to run and monitor models. Michael is interested in all aspects of artificial intelligence and the art and science of software engineering.
+[**Aldo Ramírez-Orozco, Ph.D.**](http://www.centrodelagua.org/draldo.aspx)**, Professor, Center for Water for Latin America and the Caribbean, and General Director, Núcleo Estrategico de Decisiones \(NED\), at Tecnológico de Monterrey**. Dr. Ramírez is the Mexico co-Principal Investigator for the CITRIS-funded seed project to develop OpenAgua, helping to guide project organization and liaising with funding partners in Mexico.
+
+[**Michael Zarozinski**](https://www.cics.umass.edu/people/zarozinski-michael)**, Senior Software Engineer, College of Information and Computer Sciences, University of Massachusetts Amherst**. He is a lead designer and implementer of the "heart and soul" of OpenAgua, the facility to run and monitor models. Michael is interested in all aspects of artificial intelligence and the art and science of software engineering.
 
 In addition, core development is in close collaboration with others. In particular:
 
@@ -44,7 +54,7 @@ The OpenAgua team appreciates working with our initial funding partners, for bot
 
 ## Translation Team
 
-Translations \(forthcoming\) are provided by a dedicated, enthusiastic, and uncompensated, team of already-overworked graduate students or recent graduates. They will be acknowledged once the multilingual capability is fully implemented.
+Once we get translations going again, we'll list the translators here.
 
 ## The Open Source Community
 

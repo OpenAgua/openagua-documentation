@@ -1,4 +1,4 @@
-# Getting started
+# Quick start
 
 ## Orientation
 

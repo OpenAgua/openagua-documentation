@@ -1,4 +1,4 @@
-# exporting-data
+# Exporting data
 
 \[Under construction\]
 

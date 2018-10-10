@@ -1,4 +1,4 @@
-# Key Concepts
+# Key concepts
 
 ## Data organization
 

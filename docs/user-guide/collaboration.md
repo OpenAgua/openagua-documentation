@@ -1,4 +1,4 @@
-# collaboration
+# Sharing & collaboration
 
 \[Under construction\]
 

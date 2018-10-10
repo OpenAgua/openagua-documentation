@@ -1,4 +1,4 @@
-# about-this-guide
+# About this guide
 
 The purpose of this user guide is to help get started modeling right away; describe key concepts that underpin the data organization and modeling principles used by OpenAgua, and describe how to use specific application features.
 

@@ -1,4 +1,4 @@
-# writing-functions
+# Writing functions
 
 The last line of the user-entered code is automatically prepended with "return ", such that the user doesn't need to. This is most useful for simple cases, such as a constant value:
 
