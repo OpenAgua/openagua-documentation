@@ -1,7 +1,6 @@
 # Table of contents
 
-* [About](about/README.md)
-  * [The Team](about/the-team.md)
+* [About](README.md)
 * [User Guide](user-guide/README.md)
   * [Key concepts](user-guide/key-concepts.md)
   * [Sharing & collaboration](user-guide/collaboration.md)
@@ -20,5 +19,6 @@
 * [Tutorials](tutorials/README.md)
   * [Quick start](tutorials/quick-start.md)
 * [Publications](publications.md)
+* [The Team](the-team.md)
 * [Frequently Asked Questions](faqs.md)
 

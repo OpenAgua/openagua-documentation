@@ -1,10 +1,6 @@
----
-description: >-
-  OpenAgua is developed and maintained by a core group of university researchers
-  and funding partners, with development and technical support from many others.
----
-
 # The Team
+
+OpenAgua is developed and maintained by a core group of university researchers and funding partners, with development and technical support from many others.
 
 ## Institutional Partners
 
