@@ -12,6 +12,7 @@
   * [Running models](user-guide/running-models.md)
   * [Viewing & saving results](user-guide/viewing-results/README.md)
     * [Results explorer](user-guide/viewing-results/results-explorer.md)
+    * [Results dashboard](user-guide/viewing-results/results-dashboard.md)    
     * [Exporting results](user-guide/viewing-results/exporting-data.md)
   * [Advanced data tools](user-guide/advanced-tools.md)
   * [Under-the-hood](user-guide/under-the-hood.md)
