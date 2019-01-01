@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About](README.md)
+* [About](about/README.md)
   * [The Team](about/the-team.md)
 * [User Guide](user-guide/README.md)
   * [Key concepts](user-guide/key-concepts.md)
