@@ -22,6 +22,8 @@ Current team:
 
 [**Casey Brown, PhD, Hydrosystems Research Group, University of Massachusetts Amherst**](https://cee.umass.edu/faculty/casey-brown). Dr. Brown helps guide the vision of OpenAgua and helps ensure its continued short-term development in the context of multiple high profile water systems.
 
+**Don Park**. Don, who currently a graduate student in the UMass Hydrosystems Research Group, has previous experience in the startup world and cloud software management, and provides valuable insights into the application development process. Don also maintains a list of useful articles related to programming conventions, [Programming and You!](https://projects.cloudwaterlab.com/donpark/ProgrammingKnowledge).
+
 Past contributors:
 
 **Laura Elisa-Garza, M.S., Center for Water for Latin America and the Caribbean, Tecnológico de Monterrey**. Laura is leading the study to demonstrate OpenAgua for the city of Monterrey, Mexico, develops content \(e.g., documentation\) and visual design, and continually tests OpenAgua
