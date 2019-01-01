@@ -2,7 +2,6 @@
 
 * [About](README.md)
 * [User Guide](user-guide/README.md)
-  * [About this guide](user-guide/about-this-guide.md)
   * [Quick start](user-guide/getting-started.md)
   * [Key concepts](user-guide/key-concepts.md)
   * [Sharing & collaboration](user-guide/collaboration.md)
