@@ -1,7 +1,5 @@
 # Setting up a new model
 
-This describes how to create and set up up a model. This assumes you have read [Key Concepts](https://github.com/openagua/openagua-documentation/tree/f19ba5dcd6e831142525f48888c806f2925f6afe/user-guide/key-concepts/README.md) and that you have successfully created an account and logged on.
-
 ## Create/edit projects
 
 ### Create a project
