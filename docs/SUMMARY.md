@@ -1,6 +1,9 @@
 # Table of contents
 
 * [What is OpenAgua?](README.md)
+
+## How to use
+
 * [User Guide](user-guide/README.md)
   * [Key concepts](user-guide/key-concepts.md)
   * [Sharing & collaboration](user-guide/collaboration.md)
@@ -22,7 +25,11 @@
     * [Under-the-hood](user-guide/advanced/under-the-hood.md)
 * [Tutorials](tutorials/README.md)
   * [Quick start](tutorials/quick-start.md)
+  
+ * [Frequently Asked Questions](faqs.md)
+  
+## Learn more
+  
 * [Publications](publications.md)
 * [The Team](the-team.md)
-* [Frequently Asked Questions](faqs.md)
 
