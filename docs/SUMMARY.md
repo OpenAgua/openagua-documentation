@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About](README.md)
+* [What is OpenAgua?](README.md)
 * [User Guide](user-guide/README.md)
   * [Key concepts](user-guide/key-concepts.md)
   * [Sharing & collaboration](user-guide/collaboration.md)
