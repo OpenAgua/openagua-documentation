@@ -26,7 +26,7 @@
 * [Tutorials](tutorials/README.md)
   * [Quick start](tutorials/quick-start.md)
  
-* [Where to get help]() 
+* [Where to get help](getting-help.md) 
 * [Frequently Asked Questions](faqs.md)
   
 ## Learn more
