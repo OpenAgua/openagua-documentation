@@ -25,8 +25,9 @@
     * [Under-the-hood](user-guide/advanced/under-the-hood.md)
 * [Tutorials](tutorials/README.md)
   * [Quick start](tutorials/quick-start.md)
-  
- * [Frequently Asked Questions](faqs.md)
+ 
+* [Where to get help]() 
+* [Frequently Asked Questions](faqs.md)
   
 ## Learn more
   
