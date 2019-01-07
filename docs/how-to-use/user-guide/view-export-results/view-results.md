@@ -1,4 +1,4 @@
-# Viewing results
+# Visualize results
 
 ## Results Explorer / Chart maker
 

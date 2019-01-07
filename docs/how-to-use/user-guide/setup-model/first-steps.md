@@ -1,4 +1,4 @@
-# Setting up a new model
+# First steps
 
 ## Create/edit projects
 

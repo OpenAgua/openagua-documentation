@@ -1,4 +1,4 @@
-# Running models
+# Running a model
 
 ## Model Dashboard
 

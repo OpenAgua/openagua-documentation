@@ -1,6 +1,6 @@
 # What is OpenAgua?
 
-OpenAgua is a web-based application for modeling water systems for water resources planning and management. It aims to help develop insights to complex water issues in a collaborative computing environment. OpenAgua is built by [a dedicated team](./the-team.md) of developers, water experts, and visionary funders, and is based on the Hydra Shared Software Platform, an open source suite of tools for building network models.
+OpenAgua is a web-based application for modeling water systems for water resources planning and management. It aims to help develop insights to complex water issues in a collaborative computing environment. OpenAgua is built by [a dedicated team](learn-more/the-team.md) of developers, water experts, and visionary funders, and is based on the Hydra Shared Software Platform, an open source suite of tools for building network models.
 
 ## Key Innovations
 
@@ -8,7 +8,7 @@ The key innovations of OpenAgua over existing water system modeling platforms st
 
 * Cloud-based high-speed computing
 * Collaboration/sharing in modeling and scenario analysis
-* Easy continual improvement through the open source development model and widely-used [core technologies](./behind-the-scenes/core-technologies.md).
+* Easy continual improvement through the open source development model and widely-used [core technologies](https://github.com/openagua/openagua-documentation/tree/77936cd58058fa085e48acf753e5e4317451c357/docs/behind-the-scenes/core-technologies.md).
 * Interoperability between other web applications.
 
 Additionally, OpenAgua explicitly uses economic optimization by default, while also allowing a traditional similation approach.
