@@ -21,8 +21,8 @@
     * [Results dashboard](user-guide/view-export-results/results-dashboard.md)  
     * [Exporting results](user-guide/view-export-results/exporting-data.md)
   * [Advanced](user-guide/advanced/README.md)
+    * [OpenAgua data specifications](user-guide/advanced/data-specifications.md)
     * [Advanced data tools](user-guide/advanced/advanced-tools.md)
-    * [Under-the-hood](user-guide/advanced/under-the-hood.md)
 * [Tutorials](tutorials/README.md)
   * [Quick start](tutorials/quick-start.md)
  
@@ -33,4 +33,5 @@
   
 * [Publications](publications.md)
 * [The Team](the-team.md)
+* [Contributing](contributing.md)
 
