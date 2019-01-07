@@ -1,7 +1,5 @@
 # Viewing/editing a network
 
-## Create a network
-
 ## Edit a network
 
 The spatial representation of a water system developed in the **Network Editor**. The Network Editor section is destined to construct your model in a schematic view. In here, the graphical interface will help the user to visualize and comprenhend its project in form of the physical relationship between demand and supply nodes as well as their connection among them.
@@ -20,3 +18,6 @@ Once you set the area, start adding nodes and links. To set a point or a node: C
 
 You are also able to edit the schematic location of points and polylines just click the edit icon at the top left of the map and move your nodes and links freely then save any changes. It is important to know that every polyline is managed as an independent link \(we have to discuss this part\). On the other side if you want to edit the nature of any node or link, do a right click on it and you will be able to: see the coordinates of the feature and center the data there. Moreover you will be able to delete, edit the name/description and data of the feature.
 
+## Customization
+
+Under construction.

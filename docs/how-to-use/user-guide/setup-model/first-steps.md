@@ -1,22 +1,16 @@
 # First steps
 
-## Create/edit projects
+## Create project a project
 
-### Create a project
+All the projects and networks are stored in the library called Home. In here, the user will be able to create new networks and arrange them by the user's preferences. Networks can be shared, edited, exported, deleted and cleaned.
 
-To create a project, which will contain one or more network, click ‘Add Project’ from the HOME area.
+## Create a network
 
-### Edit a project
+Once logged-in, click "add network" in order to start building your project. A window will pop up so you can name and describe your project. Each network can have different versions where you will be able to switch within without loosing any data, we recommend selecting the latest version and looking at the "version history" link before modifying the template. This feature will function in later versions of OpenAgua.
 
-### Delete a project
+Once you are logged-in, click "add network" in order to start building your project. A window will pop up so you can name and describe your project. Each network can have different versions where you will be able to switch within without loosing any data, we recommend selecting the latest version and looking at the "version history" link before modifying the template. This feature will function in later versions of OpenAgua.
 
-## Define the model template
-
-### Overview
-
-For an overview of templates, please see [Getting Started](https://github.com/openagua/openagua-documentation/tree/f19ba5dcd6e831142525f48888c806f2925f6afe/user-guide/getting-started/README.md#network-templates).
-
-The template facility enables you to view "official" \(built-in\) templates and create/modify additional templates. Official templates may be "forked" to create a copy which may then be edited.
+Once your network is set you can start building it by clicking "overview" and then "Network Editor", also a drop-down menu is shown at the upper right where sharing and editing functions are available.
 
 ### Getting there
 
@@ -41,10 +35,6 @@ To edit in "My templates": \[documentation forthcoming\]
 3. Changing units does not yet change units in the core model. So changing units has no effect on the units that you should provide to the model.
 
 ## Create/edit networks
-
-### Create network
-
-Once logged-in, click "add network" in order to start building your project. A window will pop up so you can name and describe your project. Each network can have different versions where you will be able to switch within without loosing any data, we recommend selecting the latest version and looking at the "version history" link before modifying the template. This feature will function in later versions of OpenAgua.
 
 ### Edit network properties
 

@@ -25,7 +25,11 @@ Under construction.
 
 In OpenAgua, a "template" is a definition of the overall structure of a network. Specifically, a template defines the kinds \(_types_\) of resources \(nodes, links, and global resources\) and attributes \(i.e., constants and variables\) that a network may have. For example, a template would indicate that there is a node type called "reservoir" and link type called "river". The template would then further indicate that, for example, a reservoir has a "capacity" and an "inactive zone". Thus, although OpenAgua is inspired by solving water system problems, templates can be created for any network type.
 
-The user does not need to deal with templates to get started with OpenAgua. However, modelers will often find the need to modify the template associated with their networks. For this reason, OpenAgua includes a [template editor](https://github.com/openagua/openagua-documentation/tree/88bbc167c05dd40a267cf0802dc9b30fedd4b5b2/docs/user-guide/user-guide/configuration/network-templates.md).
+The user does not need to deal with templates to get started with OpenAgua. However, modelers will often find the need to modify the template associated with their networks. For this reason, OpenAgua includes the ability to edit templates. Two template viewers/editors exist for this purpose:
+
+1. **General templates** - Templates that are not used by a specific network are included listed as "general templates". Templates in this area are editable only by their owner. If the owner makes a template public, this template may be viewed and copied by others for use in their own projects.
+1. **Project templates** - Templates that are in use by specific networks are listed in the project viewer, where they may be edited by anybody who can edit the project.
+
 
 ## Model engines \(optional\)
 
