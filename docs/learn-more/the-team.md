@@ -26,13 +26,13 @@ Current team:
 
 Past contributors:
 
-**Laura Elisa-Garza, M.S., Center for Water for Latin America and the Caribbean, Tecnológico de Monterrey**. Laura is leading the study to demonstrate OpenAgua for the city of Monterrey, Mexico, develops content \(e.g., documentation\) and visual design, and continually tests OpenAgua
+**Laura Elisa-Garza, M.S., Center for Water for Latin America and the Caribbean, Tecnológico de Monterrey**. Laura lead the study to demonstrate OpenAgua for the city of Monterrey, Mexico, and contributed to documentation and visual design.
 
-[**Josué Medellín-Azuara, Ph.D.**](https://watershed.ucdavis.edu/people/joshmd)**, Senior Researcher, Center for Watershed Sciences, University of California, Davis**. Dr. Medellín-Azuara is the U.S. co-Principal Investigator for the CITRIS-funded seed project to develop OpenAgua, helping to oversee project organization and coordinate with other related projects.
+[**Josué Medellín-Azuara, Ph.D.**](https://watershed.ucdavis.edu/people/joshmd)**, Senior Researcher, Center for Watershed Sciences, University of California, Davis**. Dr. Medellín-Azuara was the U.S. co-Principal Investigator for the \[CITRIS\]\([https://citris-uc.org/](https://citris-uc.org/)\)-funded seed project to develop OpenAgua, helping to oversee project organization and coordinate with other related projects.
 
-[**Aldo Ramírez-Orozco, Ph.D.**](http://www.centrodelagua.org/draldo.aspx)**, Professor, Center for Water for Latin America and the Caribbean, and General Director, Núcleo Estrategico de Decisiones \(NED\), at Tecnológico de Monterrey**. Dr. Ramírez is the Mexico co-Principal Investigator for the CITRIS-funded seed project to develop OpenAgua, helping to guide project organization and liaising with funding partners in Mexico.
+[**Aldo Ramírez-Orozco, Ph.D.**](http://www.centrodelagua.org/draldo.aspx)**, Professor, Center for Water for Latin America and the Caribbean, and General Director, Núcleo Estrategico de Decisiones \(NED\), at Tecnológico de Monterrey**. Dr. Ramírez was the Mexico co-Principal Investigator for the CITRIS-funded seed project to develop OpenAgua, helping to guide project organization and liaise with funding partners in Mexico.
 
-[**Michael Zarozinski**](https://www.cics.umass.edu/people/zarozinski-michael)**, Senior Software Engineer, College of Information and Computer Sciences, University of Massachusetts Amherst**. He is a lead designer and implementer of the "heart and soul" of OpenAgua, the facility to run and monitor models. Michael is interested in all aspects of artificial intelligence and the art and science of software engineering.
+[**Michael Zarozinski**](https://www.cics.umass.edu/people/zarozinski-michael)**, Senior Software Engineer, College of Information and Computer Sciences, University of Massachusetts Amherst**. Michael was a lead designer and implementer of the "heart and soul" of OpenAgua, the facility to run and monitor models. Michael is interested in all aspects of artificial intelligence and the art and science of software engineering.
 
 In addition, core development is in close collaboration with others. In particular:
 
