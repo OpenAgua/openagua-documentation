@@ -4,7 +4,7 @@ There are several concepts that are important to understand when using OpenAgua.
 
 ## Data organization
 
-OpenAgua builds on the data organizing scheme defined by [Hydra Platform](https://github.com/openagua/openagua-documentation/tree/88bbc167c05dd40a267cf0802dc9b30fedd4b5b2/docs/user-guide/www.hydraplatform.org) \(Hydra\). Data is broadly organized as follows, yet the actual data organization is much more complex \(refer to Hydra documentation\):
+OpenAgua builds on the data organizing scheme defined by [Hydra Platform](https://www.hydraplatform.org) \(Hydra\). Data is broadly organized as follows, yet the actual data organization is much more complex \(refer to Hydra documentation\):
 
 * Water system model components are grouped into _networks_, which are further grouped into _projects_.
 * Data is grouped into _scenarios_
