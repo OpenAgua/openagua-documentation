@@ -10,7 +10,7 @@ OpenAgua includes a range of key innovations over existing desktop-based softwar
 
 * **Integrated collaboration and sharing** - The modern web facilitates technical collaboration and sharing for transparency and data discovery, central motivations of OpenAgua; collaboration and sharing features are deeply integrated into OpenAgua, though much additional work remains. [Read more](how-to-use/user-guide/collaboration.md).
 * **Cloud-based computing** - Although desktop computers are continually increasing speed, on-demand access to even more powerful and numerous cloud computers significantly increases our ability to discover water management solutions in an increasingly deeply uncertain world. OpenAgua allows users to use any internet-connected computer to take on tough computing tasks, from commercial cloud computers to personal laptops. [Read more](how-to-use/user-guide/configuration/model-engines.md).
-* **Open source \(mostly\)** - As much of OpenAgua as possible is open source. In particular, the default water allocation model is completely open source \([see it here](https://github.com/openagua/waterlp)\). The core OpenAgua API is not yet open source, but will be.
+* **Open source \(mostly\)** - As much of OpenAgua as possible is open source. In particular, the default water allocation model is completely open source \([see it here](https://github.com/openagua/waterlp)\). The core OpenAgua API is not yet open source, but will be. [Read more](learn-more/contributing/open-source.md).
 
 ## Business model and availability
 

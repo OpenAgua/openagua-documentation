@@ -32,5 +32,7 @@
 
 * [Publications](learn-more/publications.md)
 * [The Team](learn-more/the-team.md)
-* [Contributing](learn-more/contributing.md)
+* [Development](learn-more/contributing/README.md)
+  * [Open source software](learn-more/contributing/open-source.md)
+  * [Contributing](learn-more/contributing/contributing.md)
 
