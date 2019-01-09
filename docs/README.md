@@ -12,39 +12,40 @@ OpenAgua includes a range of key innovations over existing desktop-based softwar
 * **Cloud-based computing** - Although desktop computers are continually increasing speed, on-demand access to even more powerful and numerous cloud computers significantly increases our ability to discover water management solutions in an increasingly deeply uncertain world. OpenAgua allows users to use any internet-connected computer to take on tough computing tasks, from commercial cloud computers to personal laptops. [Read more](how-to-use/user-guide/configuration/model-engines.md).
 * **Open source \(mostly\)** - As much of OpenAgua as possible is open source. In particular, the default water allocation model is completely open source \([see it here](https://github.com/openagua/waterlp)\). The core OpenAgua API is not yet open source, but will be. [Read more](learn-more/contributing/open-source.md).
 
-## Business model and availability
+## Availability
 
-OpenAgua may be either used online at [www.openagua.org](https://www.openagua.org), or downloaded \(for free\) [from GitHub](https://github.com/OpenAgua/OpenAgua) for use on a desktop or local server. OpenAgua.org enables ready-to-go modeling, with no setup required, whereas the downloadable version is mostly free and customizable \(some advanced features require a license; these are disabled by default\). In all cases, we offer paid support for both modeling and custom installation.
+For now, OpenAgua is only available online at [www.openagua.org](https://www.openagua.org), though we are working to create a self-hosting option.
 
 ## Main Features
 
-**Water system modelling**
+### Water system modelling
 
-OpenAgua uses the standard water system modeling techniques to help understand complex, real-world water management challenges. Three generic approaches to modeling are supported. First, a hydroeconomic modeling approach with perfect foresight \(of hydrologic conditions, water demands, etc.\) can be used to maximize the total benefit derived from system operations. Second, the first approach can be modified by using imperfect foresight instead of perfect foresight. Finally, a traditional rule-based simulation approach can be used, whereby no foresight is assumed. \(**Note**: Currently, only the first approach is implemented, though the latter two are planned.\). Furthermore, in the future users will be able to use their own custom model, but still use OpenAgua to interact with their data and run their model.
-
-Read more about the default [water allocation logic](https://github.com/openagua/openagua-documentation/tree/590f1217673c214159e618b6d86026acffb15ecf/docs/user-guide/water-allocation-logic/README.md), and see the [list of publications](https://github.com/openagua/openagua-documentation/tree/590f1217673c214159e618b6d86026acffb15ecf/docs/publications/README.md).
+Water system modeling needs is built into the DNA of OpenAgua, even though OpenAgua is also flexible enough to accommodate any arbitrary model. OpenAgua by default includes a demand-driven, priority-based simulation model, similar in concept to WEAP. [Read more](https://openagua.github.io/waterlp).
 
 **Advanced scenario builder**
 
 In order to adequately asses several decision frameworks, aside from the baseline scenario, OpenAgua has the feature of constructing scenarios. The user will be able to incorporate a mix of potential uncertainties and make projections in a specified time frame. By implementing scenarios, the user’s project will developed a more robust and deep analysis. Evaluation, identification and establishment of the best strategies into potential plans will ensure the user to select the best future projection for water planning.
 
-Learn more in the [scenario builder demo](https://github.com/openagua/openagua-documentation/tree/590f1217673c214159e618b6d86026acffb15ecf/docs/demos/README.md#scenarios), the [user guide](https://github.com/openagua/openagua-documentation/tree/590f1217673c214159e618b6d86026acffb15ecf/docs/user-guide/creating-scenarios/README.md), or in the [scenario builder tutorial](https://github.com/openagua/openagua-documentation/tree/590f1217673c214159e618b6d86026acffb15ecf/docs/tutorials/creating-scenarios/README.md).
+Learn more in the [user guide](./how-to-use/user-guide/setup-model/view-edit-scenarios.md).
 
 **Standardized data organization**
 
-All data of OpenAgua is organized using [Hydra Platform](http://hydraplatform.org), a data representation layer and web server for the remote management of networks and data. By using this server, OpenAgua can store and process data on a web based service, it is important to mention that OpenAgua and Hydra are both implemented in Python.
+All data of OpenAgua is organized using the [Hydra Platform](http://www.hydraplatform.org) software, which ensures consistent and quality-controlled data organization. The use of Hydra Platform also ensures cross-compatibility between OpenAgua and other Hydra-compliant software systems, such as the Hydra-native web application [https://hydra.org.uk](https://hydra.org.uk)
 
 **Advanced analytical tools**
 
-OpenAgua is packed with a suite of modern visualization tools, including graphs, charts and maps, some of which are interactive. By default, OpenAgua uses Plotly for creating charts \(see some [Plotly examples](https://plot.ly/javascript/#basic-charts)\). Since no single platform can meet all user needs, users can also either download data for offline analysis or connect directly to their data from other data analysis platforms, such as R or Jupyter Notebook.
+OpenAgua integrates modern visualization tools, based on the popular [Plotly library](https://plot.ly/javascript/). Since no single platform can meet all user needs, users can also either download data for offline analysis or connect directly to their data from other data analysis platforms, such as R or Jupyter Notebook.
 
 **Collaborative modeling and scenario analysis**
 
-Real-time interaction, remote collaborations and web interface communication methods are gradually becoming more common. OpenAgua’s platform is designed to target these communication approach. With OpenAgua, multiple users can share and work in one or more networks. These feature provide a flexible and transparent tool for water managers, stakeholders, citizens, researchers etc. Moreover, different levels of access can be assigned to the networks, this ensures developers to allow collaborators certain privileges such as edit or just read. With this feature, users will get involved and be potential contributors to other existing projects. Furthermore, they will be able to find popular and trending or starred projects.
+OpenAgua is designed from the ground up for collaboration and sharing. Practical examples of collaboration include:
+* Technical collaboration between modelers.
+
+Despite these options, OpenAgua by means requires transparency; access to data is controlled, and private data is secure.
 
 **Flexible computing**
 
-Flexible computing is another essential part of OpenAgua. Based on Internet-connected servers, OpenAgua may be downloaded/installed locally or used directly online at [OpenAgua web page](https://github.com/openagua/openagua-documentation/tree/590f1217673c214159e618b6d86026acffb15ecf/docs/www.openagua.org) to leverage the power of cloud computing. This enables dynamism, scalability and plasticity to users’ projects.
+Flexible computing is another core feature of OpenAgua. As noted above, OpenAgua ships with a default model that can be run without any configuration on the part of the user. However, models can also be configured to use a range of different computing modes, with the only requirement being that the computer is connected to the internet. Read more about [model engine configuration](./how-to-use/user-guide/configuration/model-engines.md).
 
 **Security**
 
@@ -57,8 +58,4 @@ The OpenAgua software is open source and mostly free \(some optional functions r
 The fact that users’ needs and approaches to target problems are in constant change, open source softwares enables the opportunity to evolve by the constant developing of prototype code innovations. For instance, the user’s community of OpenAgua can freely make improvements and innovate codes on the platform or in their networks. The source code of OpenAgua is written in Python and it can be checked out on GitHub.
 
 While the main functionality of OpenAgua is free, some additional useful features require a license to use. These features are disabled by default, but can be enabled, and are available in the paid version of OpenAgua.org.
-
-**Modeling**
-
-The default hydroeconomic model used by OpenAgua is written using [Pyomo](http://www.pyomo.org), a Python package used to formulate and solve optimization models. [GLPK](https://www.gnu.org/software/glpk/) is the linear programming solver used by the default hydroeconomic model.
 
