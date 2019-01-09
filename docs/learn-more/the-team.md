@@ -56,5 +56,5 @@ Once we get translations going again, we'll list the translators here.
 
 ## The Open Source Community
 
-OpenAgua uses primarily Open Source software, much of which is highly undervalued by society, yet nonetheless otherwise extremely appreciated. We consider the many thuosands of developers who have contributed to the various technologies used by OpenAgua to be implicitly part of the team. See the list of [core technologies](https://github.com/openagua/openagua-documentation/tree/f19ba5dcd6e831142525f48888c806f2925f6afe/README.md#core-technologies).
+OpenAgua uses primarily Open Source software, much of which is highly undervalued by society, yet nonetheless otherwise extremely appreciated. We consider the many thuosands of developers who have contributed to the various technologies used by OpenAgua to be implicitly part of the team. See the list of [core technologies](contributing/open-source.md).
 
