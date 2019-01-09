@@ -1,4 +1,10 @@
 # Publications
 
-Under Construction.
+## Peer-reviewed journal articles
+
+Under construction
+
+## Conference presentations
+
+Under construction
 

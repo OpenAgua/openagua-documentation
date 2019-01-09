@@ -1,4 +1,8 @@
-# Setting up a model
+---
+description: >-
+  This section describes how to create and edit a new network model. Before
+  continuing, please be sure to read about key concepts.
+---
 
-This section describes how to create and edit a new network model. Before continuing, please be sure to read [Key Concepts](./how-to-use/user-guide/key-concepts.md).
+# Setting up a model
 

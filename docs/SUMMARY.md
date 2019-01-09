@@ -8,7 +8,7 @@
   * [Key concepts](how-to-use/user-guide/key-concepts.md)
   * [Sharing & collaboration](how-to-use/user-guide/collaboration.md)
   * [Configuration](how-to-use/user-guide/configuration/README.md)
-    * [Model engines](how-to-use/user-guide/configuration/model-engines.md)
+    * [Model engines & cloud computing](how-to-use/user-guide/configuration/model-engines.md)
     * [Network templates](how-to-use/user-guide/configuration/network-templates.md)
   * [Setting up a model](how-to-use/user-guide/setup-model/README.md)
     * [First steps](how-to-use/user-guide/setup-model/first-steps.md)
@@ -32,5 +32,7 @@
 
 * [Publications](learn-more/publications.md)
 * [The Team](learn-more/the-team.md)
-* [Contributing](learn-more/contributing.md)
+* [Development](learn-more/contributing/README.md)
+  * [Open source software](learn-more/contributing/open-source.md)
+  * [Contributing](learn-more/contributing/contributing.md)
 

@@ -1,19 +1,18 @@
 # What is OpenAgua?
 
-OpenAgua is a web-based application for modeling water systems for water resources planning and management. It aims to help develop insights to complex water issues in a collaborative computing environment. OpenAgua is built by [a dedicated team](learn-more/the-team.md) of developers, water experts, and visionary funders, and is based on the Hydra Shared Software Platform, an open source suite of tools for building network models.
+OpenAgua is a web-based application for modeling water systems for water resources planning and management. It aims to help develop insights to complex water issues in a collaborative online space. To achieve this, it offers a powerful set of basic tools for most use cases, as well as an increasing number of advanced tools for more complex modeling and computing cases. While OpenAgua is oriented toward water systems, it can also be easily adapted for other kinds of systems, such as energy systems.
+
+OpenAgua is built by [a dedicated team](learn-more/the-team.md) of developers, water experts, and funders.
 
 ## Key Innovations
 
-The key innovations of OpenAgua over existing water system modeling platforms stem from its use of web technologies, which existing similar platforms lack. Web technologies enable:
+OpenAgua includes a range of key innovations over existing desktop-based software applications:
 
-* Cloud-based high-speed computing
-* Collaboration/sharing in modeling and scenario analysis
-* Easy continual improvement through the open source development model and widely-used [core technologies](https://github.com/openagua/openagua-documentation/tree/77936cd58058fa085e48acf753e5e4317451c357/docs/behind-the-scenes/core-technologies.md).
-* Interoperability between other web applications.
+* **Integrated collaboration and sharing** - The modern web facilitates technical collaboration and sharing for transparency and data discovery, central motivations of OpenAgua; collaboration and sharing features are deeply integrated into OpenAgua, though much additional work remains. [Read more](how-to-use/user-guide/collaboration.md).
+* **Cloud-based computing** - Although desktop computers are continually increasing speed, on-demand access to even more powerful and numerous cloud computers significantly increases our ability to discover water management solutions in an increasingly deeply uncertain world. OpenAgua allows users to use any internet-connected computer to take on tough computing tasks, from commercial cloud computers to personal laptops. [Read more](how-to-use/user-guide/configuration/model-engines.md).
+* **Open source \(mostly\)** - As much of OpenAgua as possible is open source. In particular, the default water allocation model is completely open source \([see it here](https://github.com/openagua/waterlp)\). The core OpenAgua API is not yet open source, but will be. [Read more](learn-more/contributing/open-source.md).
 
-Additionally, OpenAgua explicitly uses economic optimization by default, while also allowing a traditional similation approach.
-
-## Availability
+## Business model and availability
 
 OpenAgua may be either used online at [www.openagua.org](https://www.openagua.org), or downloaded \(for free\) [from GitHub](https://github.com/OpenAgua/OpenAgua) for use on a desktop or local server. OpenAgua.org enables ready-to-go modeling, with no setup required, whereas the downloadable version is mostly free and customizable \(some advanced features require a license; these are disabled by default\). In all cases, we offer paid support for both modeling and custom installation.
 
