@@ -1,7 +1,4 @@
 # Where to get help
 
-Aside from this documentation, including the [FAQs](faqs.md), there are several other ways to get help.
-
-1. [Discussion forum](https://discuss.openagua.org) - Ask questions from other users and the support/development team.
-2. More forthcoming.
+Since this documentation is currently under development, the best way to get help is to reach out to the lead developer, David Rheinheimer, at drheinheimer@umass.edu.
 
