@@ -14,9 +14,9 @@ Previous:
 
 [**Center for Watershed Sciences**](https://watershed.ucdavis.edu/)**, University of California, Davis.**
 
-## Core Team
+## Development Team
 
-Current team:
+### Current team
 
 **David Rheinheimer, Ph.D., Post-doctoral Researcher, Hydrosystems Group, University of Massachusetts Amherst**. Dr. Rheinheimer conceptualized OpenAgua and is involved in all aspects of its development, including vision, strategic planning, project management and technical leadership; to-date, he has been the primary developer of OpenAgua. His primary interests are in developing and leveraging decision support technologies to improve strategic management of water and energy resources.
 
@@ -24,9 +24,9 @@ Current team:
 
 **Don Park**. Don, who currently a graduate student in the UMass Hydrosystems Research Group, has previous experience in the startup world and cloud software management, and provides valuable insights into the application development process. Don also maintains a list of useful articles related to programming conventions, [Programming and You!](https://projects.cloudwaterlab.com/donpark/ProgrammingKnowledge).
 
-Past contributors:
+### Past contributors
 
-**Laura Elisa-Garza, M.S., Center for Water for Latin America and the Caribbean, Tecnológico de Monterrey**. Laura lead the study to demonstrate OpenAgua for the city of Monterrey, Mexico, and contributed to documentation and visual design.
+**Laura Elisa-Garza, M.S., Center for Water for Latin America and the Caribbean, Tecnológico de Monterrey**. Laura led the study to demonstrate OpenAgua for the city of Monterrey, Mexico, and contributed to documentation and visual design.
 
 [**Josué Medellín-Azuara, Ph.D.**](https://watershed.ucdavis.edu/people/joshmd)**, Senior Researcher, Center for Watershed Sciences, University of California, Davis**. Dr. Medellín-Azuara was the U.S. co-Principal Investigator for the \[CITRIS\]\([https://citris-uc.org/](https://citris-uc.org/)\)-funded seed project to develop OpenAgua, helping to oversee project organization and coordinate with other related projects.
 
@@ -34,9 +34,13 @@ Past contributors:
 
 [**Michael Zarozinski**](https://www.cics.umass.edu/people/zarozinski-michael)**, Senior Software Engineer, College of Information and Computer Sciences, University of Massachusetts Amherst**. Michael was a lead designer and implementer of the "heart and soul" of OpenAgua, the facility to run and monitor models. Michael is interested in all aspects of artificial intelligence and the art and science of software engineering.
 
+### Collaborators
+
 In addition, core development is in close collaboration with others. In particular:
 
-**Stephen Knox, Ph.D., Lead Developer, Water Resources Group, Manchester University**. Dr. Knox is the lead developer of [Hydra Platform](http://hydraplatform.org/), the core data organization framework and web server used by OpenAgua. Steve provides critical support for Hydra Platform and advice on strategic development.
+**Stephen Knox, Ph.D., Lead Developer, Water Resources Group, Manchester University**. Dr. Knox is the lead developer of [Hydra Platform](http://hydraplatform.org/), the core data organization framework used by OpenAgua. Steve provides critical support for Hydra Platform and advice on strategic development.
+
+**Adel Abdallah, Ph.D. Candidate, Utah State University, Logan Utah and Senior Hydroinformatics Specialist at the Western States Water Council**. Adel designed the Water Management Data Model [\(WaMDaM\)](https://github.com/WamdamProject) to organize water systems data across multiple datasets and models. He has contributed to OpenAgua with ideas and bug reports while developing interoperability between WaMDaM and Hydra Platform/OpenAgua. Adel is interested in improving information methods and tools like OpenAgua to better organize, analyze, and communicate water management data and models to ultimately support effective and transparent decisions.
 
 ## Funding Partners
 
