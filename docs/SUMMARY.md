@@ -25,6 +25,8 @@
     * [Advanced data tools](how-to-use/user-guide/advanced/advanced-tools.md)
 * [Tutorials](how-to-use/tutorials/README.md)
   * [Quick start](how-to-use/tutorials/quick-start.md)
+* [Reference](how-to-use/reference/README.md)
+  * [WaterLP functions](how-to-use/reference/waterlp-functions.md)
 * [Where to get help](how-to-use/getting-help.md)
 * [Frequently Asked Questions](how-to-use/faqs.md)
 
