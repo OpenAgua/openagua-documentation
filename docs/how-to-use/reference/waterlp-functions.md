@@ -25,7 +25,14 @@ get("Monterrey/node/Catchment Rio San Juan/Runoff")
 get("Monterrey/node/El Cuchillo/Storage", offset=-1)
 ```
 
-**Arguments**:
+**Example 3**: Get the mean runoff-to-date for the current water year.
+
+```python
+start_date = "{year}-10-01".format(year=water_year-1)
+get("Monterrey/node/Catchment Rio San Juan/Runoff", start=start_date, agg="mean")
+```
+
+#### Arguments
 
 | Argument | Data type | Description |
 | :--- | :--- | :--- |
@@ -37,4 +44,12 @@ get("Monterrey/node/El Cuchillo/Storage", offset=-1)
 ### read\_csv
 
 Read a CSV file from a specified path. For now, this is limited to reading from the current network's file storage \(using AWS S3\), as viewable in the OpenAgua app.
+
+For the time being, this must be called prepended with `self.` and with the last arguments as `**kwargs`, as in the examples below.
+
+#### Arguments
+
+|  |  |
+| :--- | :--- |
+|  |  |
 
