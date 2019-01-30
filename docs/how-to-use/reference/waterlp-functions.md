@@ -65,6 +65,10 @@ Read a CSV file from a specified path. For now, this is limited to reading from 
 
 Returns a [Pandas DataFrame](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.html) object.
 
+{% hint style="info" %}
+Since this function relies on Pandas read\_csv, you can prepare and test your function outside of OpenAgua with your Python programming environment of choice, using Pandas instead of OpenAgua.
+{% endhint %}
+
 #### Arguments
 
 This function uses the [Pandas read\_csv](https://pandas.pydata.org/pandas-docs/version/0.23.3/generated/pandas.read_csv.html) function \(version 0.23.4\), and generally accepts the same arguments, which will be passed through directly. The `filepath_or_buffer` argument of the native Pandas read\_csv function should be replaced by the `path` argument.
@@ -78,10 +82,6 @@ This function uses the [Pandas read\_csv](https://pandas.pydata.org/pandas-docs/
 For the time being, this must be called prepended with `self.` and with the last arguments as `**kwargs`, as in the examples below.
 
 #### Examples
-
-{% hint style="info" %}
-Since this function relies on Pandas read\_csv, you can prepare and test your function outside of OpenAgua, using your Python programming environment of choice using Pandas instead of OpenAgua.
-{% endhint %}
 
 **Example 1**: Load inflow hydrology.
 
