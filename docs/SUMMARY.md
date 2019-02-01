@@ -27,8 +27,6 @@
   * [Getting started](how-to-use/waterlp/getting-started.md)
   * [Built-in variables](how-to-use/waterlp/variables.md)
   * [Functions reference](how-to-use/waterlp/functions.md)
-* [Tutorials](how-to-use/tutorials/README.md)
-  * [Quick start](how-to-use/tutorials/quick-start.md)
 * [Where to get help](how-to-use/getting-help.md)
 * [Frequently Asked Questions](how-to-use/faqs.md)
 
