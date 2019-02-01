@@ -4,6 +4,10 @@ OpenAgua is a web-based application for modeling water systems for water resourc
 
 OpenAgua is built by [a dedicated team](learn-more/the-team.md) of developers, water experts, and funders.
 
+{% hint style="info" %}
+This documentation is under development. Please contact the developers for specific help, or to highlight areas for priority documentation.
+{% endhint %}
+
 ## Key Innovations
 
 OpenAgua includes a range of key innovations over existing desktop-based software applications:

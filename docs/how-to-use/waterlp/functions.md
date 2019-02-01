@@ -1,15 +1,8 @@
----
-description: >-
-  This serves as a temporary reference for functions available with OpenAgua's
-  default water simulation model. This will move to a new dedicated site in the
-  future.
----
+# Functions reference
 
-# WaterLP functions
+The following functions are available for use within WaterLP.
 
-The following functions are available for use within the default OpenAgua model, WaterLP. See also the [code repository for WaterLP](https://github.com/openagua/waterlp-pywr).
-
-### get
+### `get`
 
 Get data from another variable, or another time step, possibly aggregated.
 
@@ -59,7 +52,7 @@ start_date = "{year}-10-01".format(year=water_year-1)
 get("Monterrey/node/Catchment Rio San Juan/Runoff", start=start_date, agg="mean")
 ```
 
-### read\_csv
+### `read_csv`
 
 Read a CSV file from a specified path. For now, this is limited to reading from the current network's file storage \(using AWS S3\), as viewable in the OpenAgua app.
 
