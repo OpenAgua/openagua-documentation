@@ -6,18 +6,20 @@ The following functions are available for use within WaterLP.
 
 Get data from another variable, or another time step, possibly aggregated.
 
-Returns either integer value.
-
 #### Arguments
 
 | Argument | Data type | Description |
 | :--- | :--- | :--- |
 | `path` \(required\) | string | The path of the variable \(aka attribute\) of interest. See note below for more detail on path construction. |
 | `flatten` | boolean | Whether or not the value returned should be summed across multiple columns if the variable obtained is a multi-column dataset. Currently, most datasets are single columns, so this normally will not be used. Defaults to `True`.  |
-| `offset` | integer | Get a value from a specific time step offset. E.g., `offset=-1` returns the value from the last time step. Default is `0`. |
-| `start` | date string  or Pendulum date | This indicates that the value should be aggregated from more than one time step, with start indicating the start date of the aggregation period. The value should be either a [Pendulum](https://pendulum.eustace.io/) date object or a string \(e.g., `1999-10-01`\) that Pendulum can properly parse. Default is `None`. |
-| `end` | date string or Pendulum date | If aggregating a value, the end date of the aggregation period. The value should be either a [Pendulum](https://pendulum.eustace.io/) date object or a string that Pendulum can properly parse. If the end date should be the current date, this can be omitted. Default is current time step date. |
-| `agg` | string | If aggregating a value \(i.e., with `start` and/or `end)`, this indicates how the value should be aggregated. Options include `mean` and `sum`. Default is `sum`. Default is `mean`. |
+| `offset` | integer | Get a value from a specific time step offset. Values can be negative or positive. E.g., `offset=-1` returns the value from the last time step, while `offset=1` returns the value from the last time step. Offset values beyond the range of the data will result in `None`. Default is `0`. |
+| `start` | date string  or Pendulum date | This indicates that the value should be aggregated from more than one time step, with start indicating the start date of the aggregation period. The value should be either a [Pendulum](https://pendulum.eustace.io/) date object or a string \(e.g., `1999-10-01`\) that Pendulum can properly parse. Future `start` values are valid, though should be accompanied by a future `end` value as well. Default is `None`. |
+| `end` | date string or Pendulum date | This indicates that the value should be aggregated from more than one time step, with `end` indicating the end date of the aggregation period. The value should be either a [Pendulum](https://pendulum.eustace.io/) date object or a string \(e.g., `1999-10-01`\) that Pendulum can properly parse. Future `end` values are valid. Default is `None`. |
+| `agg` | string | If aggregating a value \(i.e., with `start` and/or `end)`, this indicates how the value should be aggregated. Options include `mean` and `sum`. Default is `mean`. |
+
+#### Returns
+
+A scalar representing the value of the target variable during the time step.
 
 #### Notes
 
@@ -25,7 +27,7 @@ Currently, path names are constructed in one of two ways, depending on the resou
 
 `"[network_name]/[resource_type]/[resource_name]/[attribute_name]"`
 
-where network\_name is the name of the network \(of course!\), resource\_type is either node or link , resource\_name is the name of the node or link \(e.g., El Cuchillo Reservoir\), and attribute\_name is the name of the variable \(e.g., Storage Capacity\).
+where network\_name is the name of the network \(of course!\), resource\_type is either node or link, resource\_name is the name of the node or link \(e.g., El Cuchillo Reservoir\), and attribute\_name is the name of the variable \(e.g., Storage Capacity\).
 
 For network attributes \(global variables ascribed to the system as a whole, as opposed to a specific resource or facility\):
 
@@ -69,6 +71,11 @@ This function uses the [Pandas read\_csv](https://pandas.pydata.org/pandas-docs/
 | Argument | Data type | Description |
 | :--- | :--- | :--- |
 | `path` \(required\) | string | The path of the data of interest. |
+| flavor | string | The type of Python object to return. Options include `native` \(a Python dictionary\), `pandas`, and `json`. The default is `native`. |
+
+#### Returns
+
+A Python data object that depends on the `flavor` argument. The default is a native Python dictionary \(`flavor='native'`\).
 
 #### Notes
 
@@ -86,7 +93,7 @@ CSV files loaded using `read_csv` are cached, so loading the same CSV file from 
 self.read_csv("data/runoff.csv", **kwargs)
 ```
 
-This example loads all data at once. Since this function returns an entire time series, it will not be called again, as the data will already be readily available to the model. Note again that `return` is optional, so is omitted here.
+This example loads all data at once. Since this function returns an entire time series \(as a Python dictionary object by default\), it will not be called again, as the data will already be readily available to the model. Note again that `return` is optional, so is omitted here.
 
 **Example 2**: Load inflow hydrology \(per time step\).
 
