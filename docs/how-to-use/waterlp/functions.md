@@ -66,12 +66,14 @@ Since this function relies on Pandas read\_csv, you can prepare and test your fu
 
 #### Arguments
 
-This function uses the [Pandas read\_csv](https://pandas.pydata.org/pandas-docs/version/0.23.3/generated/pandas.read_csv.html) function \(version 0.23.4\), and generally accepts the same arguments, which will be passed through directly. The `filepath_or_buffer` argument of the native Pandas read\_csv function should be replaced by the `path` argument.
+This function uses the [Pandas read\_csv](https://pandas.pydata.org/pandas-docs/version/0.23.3/generated/pandas.read_csv.html) function \(version 0.23.4\), and generally accepts the same arguments, which will be passed through directly. The `filepath_or_buffer` argument of the native Pandas read\_csv function should be replaced by the `path` argument. Some of the Pandas default argument values are over-ridden to accommodate the most typical CSV format, as shown in Example 1 below; these can still be changed in the function call. Arguments listed below include both over-ridden arguments and custom additional arguments.
 
 | Argument | Data type | Description |
 | :--- | :--- | :--- |
 | `path` \(required\) | string | The path of the data of interest. |
-| flavor | string | The type of Python object to return. Options include `native` \(a Python dictionary\), `pandas`, and `json`. The default is `native`. |
+| index\_col | integer or list | Pandas `index_col` argument. Default is `0`. |
+| parse\_dates | boolean | Pandas `parse_dates` argument. Default is `True`. |
+| flavor | string | The type of Python object to return. Options include `native` \(a Python dictionary\), `pandas`, and `json`. Note that this is not a Pandas `read_csv` argument. The default is `native`. |
 
 #### Returns
 
@@ -89,11 +91,24 @@ CSV files loaded using `read_csv` are cached, so loading the same CSV file from 
 
 **Example 1**: Load inflow hydrology \(all at once\).
 
+For this first example, let's assume we have a CSV file as follows:
+
+```text
+Date,Hetch Hetchy
+2007-10-10,52.116
+2007-10-20,96.703
+2007-10-31,51.93
+2007-11-10,87.213
+2007-11-20,72.233
+```
+
+This can be loaded using the default arguments, as:
+
 ```python
 self.read_csv("data/runoff.csv", **kwargs)
 ```
 
-This example loads all data at once. Since this function returns an entire time series \(as a Python dictionary object by default\), it will not be called again, as the data will already be readily available to the model. Note again that `return` is optional, so is omitted here.
+Since this function returns an entire time series \(as a Python dictionary object by default\), it will not be called again, as the data will already be readily available to the model. I.e., all data is loaded in one go. Note again that `return` is optional, so is omitted here.
 
 **Example 2**: Load inflow hydrology \(per time step\).
 
