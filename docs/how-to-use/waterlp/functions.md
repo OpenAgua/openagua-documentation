@@ -74,14 +74,26 @@ This function uses the [Pandas read\_csv](https://pandas.pydata.org/pandas-docs/
 
 For the time being, this must be called prepended with `self.` and with the last arguments as `**kwargs`, as in the examples below.
 
+{% hint style="info" %}
+CSV files loaded using `read_csv` are cached, so loading the same CSV file from different places will _not_ significantly impact performance.
+{% endhint %}
+
 #### Examples
 
-**Example 1**: Load inflow hydrology.
+**Example 1**: Load inflow hydrology \(all at once\).
+
+```python
+self.read_csv("data/runoff.csv", **kwargs)
+```
+
+This example loads all data at once. Since this function returns an entire time series, it will not be called again, as the data will already be readily available to the model. Note again that `return` is optional, so is omitted here.
+
+**Example 2**: Load inflow hydrology \(per time step\).
 
 ```python
 data = self.read_csv("data/runoff.csv", usecols=[0,1], **kwargs)
 return data.iloc[timestep-1][1]
 ```
 
-This example uses the built-in variable `timestep`. Since Python objects are indexed starting at zero, but timestep starts at 1, when using the [DataFrame iloc index method](https://pandas.pydata.org/pandas-docs/version/0.23.4/indexing.html), `timestep-1` must be used.
+This example loads the dataset within the function, but since it returns only a single value, it will be called again every time step. This can be useful if some time-dependent manipulation of the data is needed, but is generally less efficient than the approach in Example 1. Not that this uses the built-in variable `timestep`. Since Python objects are indexed starting at zero, but `timestep` starts at 1, when using the [DataFrame iloc index method](https://pandas.pydata.org/pandas-docs/version/0.23.4/indexing.html), `timestep-1` must be used.
 
