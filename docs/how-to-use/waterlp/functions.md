@@ -84,7 +84,7 @@ A Python data object that depends on the `flavor` argument. The default is a nat
 For the time being, this must be called prepended with `self.` and with the last arguments as `**kwargs`, as in the examples below.
 
 {% hint style="info" %}
-CSV files loaded using `read_csv` are cached, so loading the same CSV file from different places will _not_ significantly impact performance.
+CSV files loaded using `read_csv` are cached, so loading the same CSV file from different functions will _not_ significantly impact performance.
 {% endhint %}
 
 #### Examples
