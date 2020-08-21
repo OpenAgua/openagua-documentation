@@ -25,6 +25,14 @@ A scalar representing the value of the target variable during the time step.
 
 Currently, path names are constructed in one of two ways, depending on the resource type. For _nodes_ and _links_:
 
+**Example 3**: Get the mean water year runoff-to-date.
+
+```python
+# Assume water year starts Oct. 1.
+start_date = '{wy}-10-01'.format(wy=water_year-1)
+get("Monterrey/node/Catchment Rio San Juan/Runoff", start=start_date, agg="mean")
+```
+
 `"[network_name]/[resource_type]/[resource_name]/[attribute_name]"`
 
 where network\_name is the name of the network \(of course!\), resource\_type is either node or link, resource\_name is the name of the node or link \(e.g., El Cuchillo Reservoir\), and attribute\_name is the name of the variable \(e.g., Storage Capacity\).

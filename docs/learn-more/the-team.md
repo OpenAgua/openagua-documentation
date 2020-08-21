@@ -6,11 +6,11 @@ OpenAgua is developed and maintained by a core group of university researchers a
 
 Current:
 
-[**UMass Hydrosystems Research Group**](http://blogs.umass.edu/hydrosystems/about/)**, University of Massachusetts Amherst.**
-
-[**Center for Water for Latin America and the Caribbean**](http://www.centrodelagua.org/)**, Tecnológico de Monterrey.**
+[**Hydrosystems Research Group**](http://blogs.umass.edu/hydrosystems/about/)**, University of Massachusetts Amherst.**
 
 Previous:
+
+[**Center for Water for Latin America and the Caribbean**](http://www.centrodelagua.org/)**, Tecnológico de Monterrey.**
 
 [**Center for Watershed Sciences**](https://watershed.ucdavis.edu/)**, University of California, Davis.**
 
@@ -41,6 +41,8 @@ In addition, core development is in close collaboration with others. In particul
 **Stephen Knox, Ph.D., Lead Developer, Water Resources Group, Manchester University**. Dr. Knox is the lead developer of [Hydra Platform](http://hydraplatform.org/), the core data organization framework used by OpenAgua. Steve provides critical support for Hydra Platform and advice on strategic development.
 
 **Adel Abdallah, Ph.D. Candidate, Utah State University, Logan Utah and Senior Hydroinformatics Specialist at the Western States Water Council**. Adel designed the Water Management Data Model [\(WaMDaM\)](https://github.com/WamdamProject) to organize water systems data across multiple datasets and models. He has contributed to OpenAgua with ideas and bug reports while developing interoperability between WaMDaM and Hydra Platform/OpenAgua. Adel is interested in improving information methods and tools like OpenAgua to better organize, analyze, and communicate water management data and models to ultimately support effective and transparent decisions.
+
+\[Adel Abdullah\]\([https://www.hydroshare.org/user/300/](https://www.hydroshare.org/user/300/)\), PhD Candidate, Utah State University. An expert in hydroinformatics and water resources management, Adel has provided critical feedback on OpenAgua, pushing it further while integrating it into his own data workflow, including \[WaMDaM\]\([http://wamdam.org/](http://wamdam.org/)\) and \[HydroShare\]\([https://www.hydroshare.org/](https://www.hydroshare.org/)\).
 
 ## Funding Partners
 
