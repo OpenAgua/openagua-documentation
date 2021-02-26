@@ -29,7 +29,8 @@
   * [Functions reference](how-to-use/waterlp/functions.md)
 * [Where to get help](how-to-use/getting-help.md)
 * [Frequently Asked Questions](how-to-use/faqs.md)
-* [API](how-to-use/api.md)
+* [Web API](how-to-use/api/README.md)
+  * [networks](how-to-use/api/networks.md)
 
 ## Learn more
 
