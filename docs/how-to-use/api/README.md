@@ -8,3 +8,9 @@ OpenAgua provides a mostly RESTful API for most objects in the database. This AP
 
 Here some of the more useful API elements are described in more detail.
 
+## Organization
+
+\[to-be-described: API organization\]
+
+## Authentication
+
