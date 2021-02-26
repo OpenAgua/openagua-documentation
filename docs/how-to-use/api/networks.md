@@ -1,3 +1,7 @@
+---
+description: API for requests related to networks.
+---
+
 # networks
 
 {% api-method method="get" host="https://www.openagua.org/api" path="/v1/networks/:network\_id" %}
